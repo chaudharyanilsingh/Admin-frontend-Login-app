@@ -6,27 +6,29 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "font-awesome": "^4.7.0",
-    "google-maps-react": "^2.0.2",
-    "jquery": "^3.4.0",
-    "node-sass": "^4.12.0",
+    "google-maps-react": "^2.0.6",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
-    "react": "^16.8.4",
-    "react-bootstrap": "^1.0.0-beta.5",
-    "react-dom": "^16.8.4",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
     "react-full-screen": "^0.2.4",
     "react-loadable": "^5.5.0",
     "react-nvd3": "^0.5.7",
-    "react-perfect-scrollbar": "^1.4.4",
+    "react-perfect-scrollbar": "^1.5.8",
     "react-redux": "^6.0.1",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^4.3.1",
     "react-s-alert": "^1.4.1",
-    "react-scripts": "^3.0.0",
+    "react-scripts": "^3.4.1",
     "react-window-size": "^1.2.2",
     "reactstrap": "^8.4.1",
-    "redux": "^4.0.1"
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "node Server.js",
@@ -44,6 +46,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "react-to-print": "^2.1.1"
+    "react-to-print": "^2.7.0"
   }
 }
