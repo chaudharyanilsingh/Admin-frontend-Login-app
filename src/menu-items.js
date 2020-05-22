@@ -29,6 +29,35 @@ export default {
                     url:'/allusers'
                 }
             ]
+        },
+        {
+            id: 'Question',
+            title: 'Question',
+            type: 'group',
+            icon: 'icon-ui',
+            children: [
+                {
+                    id: 'Question',
+                    title: 'Question',
+                    type: 'collapse',
+                    icon: 'feather icon-box',
+                    children: [
+                        {
+                            id: 'add',
+                            title: 'Add-Question',
+                            type: 'item',
+                            url: '/question/add'
+                        },
+                        {
+                            id: 'show',
+                            title: 'Show All Question',
+                            type: 'item',
+                            url: '/question/show'
+                        }                   
+                    ]
+
+                }
+            ]
         }
     ]
 }

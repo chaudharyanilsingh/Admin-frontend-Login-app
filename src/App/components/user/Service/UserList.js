@@ -49,9 +49,13 @@ class Users extends React.Component {
 
 
 ActiveHandler(id,status){
-  console.log("anil is here"+id+status);
   const url=`${API_BASE_URL}/admin/changeStatus?id=${id}&status=${status}`
   Axios.get(url,{ headers: {"Authorization" : `Bearer ${localStorage.getItem(ACCESS_TOKEN)}`} })
+  .then(res=>{
+    Alert.success("Successfully changed the status of User ")
+    this.props.history.push("/allusers");
+    
+  })
 
   .catch(err=>{
     console.log(err);
@@ -64,6 +68,9 @@ ActiveHandler(id,status){
   componentDidMount(){
     this.getAllUsers();
     
+}
+componentDidUpdate(){
+  this.getAllUsers();
 }
 
  
